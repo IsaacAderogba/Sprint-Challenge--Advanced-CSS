@@ -201,6 +201,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro .image-wrapper {
+  width: 100%;
+}
+.home .intro .image-wrapper img {
+  width: inherit;
+}
 .home .intro h2 {
   padding: 15px;
 }
