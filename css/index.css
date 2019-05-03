@@ -129,8 +129,8 @@ table {
 * {
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
+:root {
+  font-size: 67.5%;
 }
 html,
 body {
