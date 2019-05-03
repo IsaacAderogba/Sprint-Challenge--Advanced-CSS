@@ -1,4 +1,4 @@
-# Sprint Challenge: Advanced CSS - Space Walkers Web Page
+# Sprint Challenge: Advanced CSS - Space Walkers Web Page - Isaac Aderogba
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
 
@@ -50,12 +50,12 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
