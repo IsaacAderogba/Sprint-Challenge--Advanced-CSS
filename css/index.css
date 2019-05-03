@@ -186,6 +186,11 @@ a {
   text-decoration: none;
   padding: 0 1.6rem;
 }
+@media (max-width: 500px) {
+  .nav-wrapper li a {
+    padding: 0 0.8rem;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

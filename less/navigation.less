@@ -6,8 +6,7 @@
     flex-direction: column;
     align-items: center;
     background-color: @wild-sand;
-    border-bottom: 1px solid @sea-shell;
-    
+    border-bottom: 1px solid @sea-shell;    
     h1, ul{
        margin: 0.8rem 0;
     }
@@ -20,6 +19,12 @@
            text-decoration: none;
            padding: 0 1.6rem;
        }
+
+       @media @phone {
+            a {
+                padding: 0 0.8rem;
+            }
+        }
     }
 }
 
