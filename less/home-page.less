@@ -80,6 +80,14 @@
       }
 
       .btn {
+        max-width: 100px;
+        padding: 1.2rem 1.2rem;
+        .btn-mixin(@sea-shell, @ebony-clay);
+
+        @media @phone {
+          padding: 1.8rem 1.2rem;
+          max-width: 100%;
+        }
       }
 
       @media @phone {
