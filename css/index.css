@@ -324,3 +324,55 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.about form {
+  margin: 1.6rem auto;
+  width: 95%;
+  padding: 3.2rem;
+  border: 2px solid #dee2e6;
+  border-radius: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+.about form div + div {
+  margin-top: 1.6rem;
+}
+.about label {
+  display: block;
+  font-family: 'Russo One', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+}
+.about input,
+.about textarea,
+.about #magazine-select {
+  font: 1.6rem 'Ubuntu';
+  width: 100%;
+  border: 1px solid #dee2e6;
+  border-radius: 0.4rem;
+  height: 3.2rem;
+}
+.about input:focus,
+.about textarea:focus {
+  border-color: #dee2e6;
+}
+.about textarea {
+  vertical-align: top;
+  height: 12.8rem;
+}
+.about button {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.6rem;
+  background-color: #23293B;
+  color: #F1F1F1;
+  text-align: center;
+  border-radius: 0.4rem;
+}
+@media (max-width: 500px) {
+  .about button {
+    padding: 1.8rem 1.2rem;
+    width: 100%;
+  }
+}
+.about button:hover {
+  background-color: #F1F1F1;
+  color: #23293B;
+}
