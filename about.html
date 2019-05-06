@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceWalkers</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+    <!-- Start of Navigation -->
+    <nav class="nav-wrapper">
+        <a href="index.html"><h1>SpaceWalkers</h1></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Sign In</a></li>
+        </ul>
+    </nav>
+    <!-- End of Navigation -->
+
+    <!-- Start of Home Container -->
+    <div class="container home about">
+
+        <!-- Start of Header -->
+        <header class="intro">
+            <div class="image-wrapper">
+                <img src="img/space-x.png" alt="Spaceship flying around a planet">
+            </div>
+            <h2>Making Life Multiplanetary</h2>
+
+            <p>Our aspirational goal is targeted for 2024, with primary objectives of building a
+                propellant depot and preparing for future crew flights. The ships from these initial missions will also
+                serve as the beginnings of the first Mars
+                base, from which we can build a thriving city and eventually a self-sustaining civilization on Mars.</p>
+                <p><br>To support our mission, consider purchasing a SpaceWalkers magazine below:</p>
+        </header>
+        <!-- End of Header -->
+
+
+        <main>
+            <!-- Start of Form Section -->
+            <section class="content-form">
+                <form action="#" method="post">
+
+                    <!-- Select Destination -->
+                    <div class>
+                        <label for="magazine-select">Choose your magazine subscription:</label>
+                        <select id="magazine-select">
+                            <option value=""> Please choose an option </option>
+                            <option value="life-on-mars">Life on Mars</option>
+                            <option value="mars-is-completely-safe">Why Mars is Completely, 100% Safe</option>
+                            <option value="surviving-on-mars">Surviving on Mars</option>
+                        </select>
+                    </div>
+
+                    <!-- Enter Name -->
+                    <div>
+                        <label for="name">Name </label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+
+                    <!-- Enter Email -->
+                    <div>
+                        <label for="mail">E-mail </label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+
+                    <!-- Enter Phone -->
+                    <div>
+                        <label for="phone">Phone </label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+
+                    <!-- Enter Message -->
+                    <div>
+                        <label for="msg">Message</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </div>
+
+                    <!-- Submit -->
+                    <div class="btn">
+                        <button type="submit">Request!</button>
+                    </div>
+                </form>
+            </section>
+            <!-- End of Form Section -->
+        </main>
+
+
+        <!-- Start of Footer -->
+        <footer>
+            <p>Copyright SpaceWalkers 2018</p>
+        </footer>
+        <!-- End of Footer -->
+
+    </div>
+    <!-- End of Home Container -->
+</body>
+
+</html>

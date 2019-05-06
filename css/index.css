@@ -1,0 +1,379 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-size: 67.5%;
+}
+@media (max-width: 500px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #F1F1F1;
+}
+.nav-wrapper h1,
+.nav-wrapper ul {
+  margin: 0.8rem 0;
+}
+.nav-wrapper li {
+  display: inline-block;
+}
+.nav-wrapper li a {
+  color: #454A59;
+  text-decoration: none;
+  padding: 0 1.6rem;
+}
+@media (max-width: 500px) {
+  .nav-wrapper li a {
+    padding: 0 1.2rem;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 2rem 0;
+  border: 1px double #e0e0e0;
+  border-radius: 1rem;
+}
+.home .intro .image-wrapper {
+  width: 100%;
+}
+.home .intro .image-wrapper img {
+  width: inherit;
+}
+.home .intro h2 {
+  padding: 1.5rem;
+}
+.home .intro p {
+  padding: 0 1.5rem;
+}
+.home .space-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home .space-images img {
+  width: 28%;
+  margin: 2rem 2.5%;
+  border-radius: 2rem;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+}
+.home .space-images img:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 500px) {
+  .home .space-images .sky,
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images img {
+    width: 100%;
+  }
+}
+.home .visit-planets {
+  padding: 1.5rem;
+}
+.home .visit-planets h3 {
+  margin-top: 1.1rem;
+}
+.home .visit-planets p {
+  margin-top: 1.3rem;
+}
+.home .walk {
+  margin-top: 6rem;
+  border-top: 1px solid #dee2e6;
+  padding: 5rem 6rem;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .home .walk {
+    margin-top: 0.8rem;
+    padding: 2rem 2.5%;
+    flex-direction: column-reverse;
+  }
+}
+.home .walk .walk-text {
+  width: 50%;
+}
+.home .walk .walk-text h3 {
+  margin-bottom: 1rem;
+}
+.home .walk .walk-text p {
+  margin-bottom: 2.6rem;
+}
+.home .walk .walk-text .btn {
+  max-width: 10rem;
+  padding: 1.2rem 1.2rem;
+  font-size: 1.6rem;
+  background-color: #23293B;
+  color: #F1F1F1;
+  text-align: center;
+  border-radius: 0.4rem;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F1F1F1;
+  color: #23293B;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    padding: 1.8rem 1.2rem;
+    max-width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+  }
+  .home .walk .walk-text h3 {
+    margin-top: 1.6rem;
+  }
+}
+.home .walk .walk-img {
+  width: 46%;
+  margin-left: 4%;
+  transition: all 0.2s ease-in-out;
+}
+.home .walk .walk-img:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+.home .walk .walk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+.about form {
+  margin: 1.6rem auto;
+  width: 95%;
+  padding: 3.2rem;
+  border: 2px solid #dee2e6;
+  border-radius: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+.about form div + div {
+  margin-top: 1.6rem;
+}
+.about label {
+  display: block;
+  font-family: 'Russo One', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+.about input,
+.about textarea,
+.about #magazine-select {
+  font: 1.6rem 'Ubuntu';
+  width: 100%;
+  border: 1px solid #dee2e6;
+  border-radius: 0.4rem;
+  height: 3.2rem;
+}
+.about input:focus,
+.about textarea:focus {
+  border-color: #dee2e6;
+}
+.about textarea {
+  vertical-align: top;
+  height: 12.8rem;
+}
+.about button {
+  font-size: 1.6rem;
+  background-color: #23293B;
+  color: #F1F1F1;
+  text-align: center;
+  border-radius: 0.4rem;
+  padding: 1.2rem 2.4rem;
+}
+.about button:hover {
+  background-color: #F1F1F1;
+  color: #23293B;
+}
+@media (max-width: 500px) {
+  .about button {
+    padding: 1.8rem 1.2rem;
+    width: 100%;
+  }
+}

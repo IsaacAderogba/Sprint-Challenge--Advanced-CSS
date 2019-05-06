@@ -1,1 +1,36 @@
-// Navigation code here
+// Navigation
+
+.nav-wrapper {
+    .margin-auto-100();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: sticky;
+    top:0;
+    opacity: 0.9;
+
+    background-color: @wild-sand;
+    border-bottom: 1px solid @sea-shell;   
+
+    h1, ul{
+       margin: 0.8rem 0;
+    }
+    
+    li {
+       display: inline-block;
+    
+       a {
+           color: @river-bend;
+           text-decoration: none;
+           padding: 0 1.6rem;
+       }
+
+       @media @phone {
+            a {
+                padding: 0 1.2rem;
+            }
+        }
+    }
+}
+

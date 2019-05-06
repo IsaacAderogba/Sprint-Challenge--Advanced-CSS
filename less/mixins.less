@@ -1,1 +1,36 @@
 // Mixins Here
+
+// Flex Mixins
+.flex-justify-center() {
+    display: flex;
+    justify-content: center;
+  }
+
+// Margin Auto Mixins
+.margin-auto-100(){
+    width: 100%;
+    margin: 0 auto;  
+}
+
+// Button Mixins
+.btn-mixin(@color, @backgroundColor) {
+    font-size: 1.6rem;
+    background-color: @backgroundColor;
+    color: @color;
+    text-align: center;
+    border-radius: 0.4rem;
+
+    &:hover {
+        background-color: @color;
+        color: @backgroundColor;
+    }
+}
+
+// Image hover mixin
+.img-hover(){
+    transition: all .2s ease-in-out; 
+    
+    &:hover { 
+        transform: scale(1.05); 
+      }
+}
